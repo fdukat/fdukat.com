@@ -15,11 +15,11 @@
 }
 
 .heroSpan {
-  color: rgb(120, 93, 200);
+  color: var(--primaryLinkColor);
 }
 
 .heroSpan:hover {
-  color: rgb(72, 56, 122);
+  color: var(--secondaryLinkColor);
 }
 
 .heroIconList {
@@ -31,9 +31,9 @@
   margin-inline-start: 0;
   margin-inline-end: 0;
   padding-inline-start: 0;
-  margin: 40px 0;
+  margin: 30px 0;
 }
 
 .heroIcon:hover {
-  color: rgb(135, 139, 144);
+  color: var(--tertiaryLinkColor);
 }
