@@ -1,6 +1,19 @@
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .container {
   width: 75%;
   margin: auto;
+  animation: slideIn 500ms linear 0s 1 normal none;
 }
 
 @media (max-width: 768px) {

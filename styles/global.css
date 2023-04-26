@@ -1,19 +1,6 @@
-@keyframes slideIn {
-  0% {
-    opacity: 0;
-    transform: translateY(70px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 body {
   background-color: var(--backgroundColor);
   color: var(--primaryColor);
-  animation: slideIn 500ms ease-out;
 }
 
 h1,
