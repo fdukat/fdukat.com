@@ -3,7 +3,6 @@ import Link from 'next/link';
 import {
   Github,
   Linkedin,
-  Twitter,
   BookOpen,
   FileText,
 } from 'feather-icons-react/build';
