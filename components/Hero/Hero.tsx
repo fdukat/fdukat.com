@@ -49,7 +49,7 @@ export default function Hero() {
         </li>
         <li className={styles.heroIcon}>
           <a
-            href="https://www.goodreads.com/user/show/164254455-filip-dukat"
+            href="https://www.goodreads.com/fdukat"
             target="_blank"
             rel="noopener noreferrer"
           >
