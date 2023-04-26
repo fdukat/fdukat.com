@@ -60,3 +60,7 @@
     width: 100%;
   }
 }
+
+.postListElementLink {
+  width: fit-content;
+}
