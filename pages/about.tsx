@@ -1,19 +1,19 @@
 import Head from 'next/head';
 
 import Container from '@/components/Container';
-import Hero from '@/components/Hero';
 import Footer from '@/components/Footer';
-import PostsList from '@/components/PostList';
+import AboutPhoto from '@/components/AboutPhoto';
+import AboutContent from '@/components/AboutContent';
 
-export default function HomePage() {
+export default function AboutPage() {
   return (
     <>
       <Head>
-        <title>Home | Filip Dukat</title>
+        <title>About | Filip Dukat</title>
       </Head>
       <Container>
-        <Hero />
-        <PostsList />
+        <AboutPhoto />
+        <AboutContent />
       </Container>
       <Footer />
     </>

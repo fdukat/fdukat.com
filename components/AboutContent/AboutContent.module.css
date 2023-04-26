@@ -1,0 +1,13 @@
+.aboutContentParagraph {
+  font-size: 1.2rem;
+  padding: 20px 0;
+  text-align: justify;
+}
+
+.aboutContentReturn {
+  color: var(--tertiaryColor);
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  width: fit-content;
+}
