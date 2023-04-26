@@ -13,8 +13,7 @@
 body {
   background-color: var(--backgroundColor);
   color: var(--primaryColor);
-  min-height: 100vh;
-  animation: slideIn 500ms ease-out 0s 1 normal forwards;
+  animation: slideIn 500ms ease-out;
 }
 
 h1,
