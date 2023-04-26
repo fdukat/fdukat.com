@@ -1,5 +1,5 @@
 .postListWrapper {
-  margin: 80px 0;
+  margin: 100px 0 50px 0;
 }
 
 .postListHeading {
@@ -46,4 +46,29 @@
   padding: 12px 0;
   font-size: 1.1rem;
   letter-spacing: 0.5px;
+}
+
+@media (max-width: 375px) {
+  .postListHeading {
+    justify-content: center;
+  }
+
+  .postListElement {
+    width: 100%;
+    text-align: center;
+  }
+
+  .postListElementHeading {
+    width: auto;
+  }
+}
+
+@media (max-width: 425px) {
+  .postListElement {
+    width: 100%;
+  }
+
+  .postListWrapper {
+    margin: 80px 0 15px 0;
+  }
 }

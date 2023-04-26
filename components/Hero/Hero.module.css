@@ -37,3 +37,33 @@
 .heroIcon:hover {
   color: var(--tertiaryBrandColor);
 }
+
+@media (max-width: 375px) {
+  .heroHeading {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 425px) {
+}
+
+@media (max-width: 768px) {
+  .heroHeading {
+    margin: 20px 0 50px 0;
+  }
+
+  .heroWrapper {
+    text-align: center;
+    width: 100%;
+  }
+
+  .heroParagraph {
+    width: 100%;
+  }
+
+  .heroIconList {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+  }
+}
