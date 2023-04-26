@@ -22,9 +22,9 @@ export default function Hero() {
         learning new things and technology in general.
       </p>
       <p className={styles.heroParagraph}>
-        If you would like to know more about me and my journey,{' '}
+        Follow the link if you would like to learn more about{' '}
         <Link href="/about">
-          <span className={styles.heroSpan}>click here</span>
+          <span className={styles.heroSpan}>me and my journey</span>
         </Link>
         .
       </p>
