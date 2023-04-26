@@ -30,25 +30,36 @@ export default function Hero() {
       </p>
       <ul className={styles.heroIconList}>
         <li className={styles.heroIcon}>
-          <a href="https://github.com/fdukat">
+          <a
+            href="https://github.com/fdukat"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Github />
           </a>
         </li>
         <li className={styles.heroIcon}>
-          <a href="https://www.linkedin.com/in/fdukat/">
+          <a
+            href="https://www.linkedin.com/in/fdukat/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Linkedin />
           </a>
         </li>
         <li className={styles.heroIcon}>
-          <Twitter />
-        </li>
-        <li className={styles.heroIcon}>
-          <a href="https://www.goodreads.com/user/show/164254455-filip-dukat">
+          <a
+            href="https://www.goodreads.com/user/show/164254455-filip-dukat"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <BookOpen />
           </a>
         </li>
         <li className={styles.heroIcon}>
-          <FileText />
+          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+            <FileText />
+          </a>
         </li>
       </ul>
     </header>
