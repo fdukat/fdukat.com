@@ -1,10 +1,17 @@
+import Head from 'next/head';
 import Link from 'next/link';
+
+import Footer from '@/components/Footer';
 
 import styles from './Blog.module.css';
 
 export default function Layout({ children }) {
   return <main className={styles.main}>{children}</main>;
 }
+
+<Head>
+  <title>Example blog post title | Filip Dukat</title>
+</Head>
 
 # Example blog post title
 
@@ -21,3 +28,5 @@ Nullam cursus dictum blandit. Maecenas et varius justo, sed gravida sem. Etiam e
 Praesent eget tempor tellus, vel fringilla felis. Quisque vel sapien faucibus, bibendum neque nec, molestie neque. Integer hendrerit consequat elementum. Sed pellentesque lacinia velit, in vestibulum velit elementum quis. Vestibulum ut felis nisi. Praesent nunc ipsum, finibus vel fermentum nec, molestie vitae nibh. Etiam a placerat magna. Curabitur lobortis orci non tincidunt lobortis. Integer elementum luctus massa, a placerat lacus fermentum non. Nam commodo luctus laoreet. Donec consequat a sapien vitae pretium. Etiam bibendum bibendum leo, a eleifend mauris laoreet quis.
 
 Aenean et diam eget lorem ultrices ultricies in non mi. Fusce congue justo vitae lectus aliquet pulvinar. Etiam hendrerit imperdiet orci, sed imperdiet risus sollicitudin ut. Fusce facilisis diam vel leo lobortis commodo. Etiam at eleifend ipsum. Fusce eget sagittis metus. Integer non pulvinar erat. Curabitur orci justo, volutpat vitae pellentesque quis, rhoncus ut libero. Morbi mollis dictum luctus. Phasellus non blandit dolor. Quisque congue mauris erat, eget mattis purus tincidunt sit amet. Duis et semper nibh. Nunc ligula urna, faucibus a risus vitae, elementum convallis arcu.
+
+<Footer />
