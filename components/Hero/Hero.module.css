@@ -38,13 +38,10 @@
   color: var(--tertiaryBrandColor);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .heroHeading {
     font-size: 3rem;
   }
-}
-
-@media (max-width: 425px) {
 }
 
 @media (max-width: 768px) {
