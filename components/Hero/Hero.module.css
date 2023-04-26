@@ -15,11 +15,11 @@
 }
 
 .heroSpan {
-  color: var(--primaryLinkColor);
+  color: var(--primaryBrandColor);
 }
 
 .heroSpan:hover {
-  color: var(--secondaryLinkColor);
+  color: var(--secondaryBrandColor);
 }
 
 .heroIconList {
@@ -35,5 +35,5 @@
 }
 
 .heroIcon:hover {
-  color: var(--tertiaryLinkColor);
+  color: var(--tertiaryBrandColor);
 }
