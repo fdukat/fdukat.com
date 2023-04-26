@@ -23,7 +23,7 @@ export default function Hero() {
       </p>
       <p className={styles.heroParagraph}>
         If you would like to know more about me and my journey,{' '}
-        <Link href="/about">
+        <Link href="/">
           <span className={styles.heroSpan}>click here</span>
         </Link>
         .
