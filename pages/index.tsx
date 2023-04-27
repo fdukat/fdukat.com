@@ -9,7 +9,7 @@ export default function HomePage() {
   return (
     <>
       <Head>
-        <title>Home | Filip Dukat</title>
+        <title>(WIP) Home | Filip Dukat</title>
       </Head>
       <Container>
         <Hero />
