@@ -10,7 +10,7 @@ export default function AboutContent() {
       <p className={styles.aboutContentParagraph}>
         Greetings! As you can remember from the main page, my name is{' '}
         <span className={styles.aboutSpan}>Filip</span> and I am 21 years old.
-        From a young age, I have always been drawn to exciting and engaging
+        From a very young age, I have always been drawn to exciting and engaging
         activities, with a distaste for monotony and stagnation. This drive
         eventually led me to the world of programming.
       </p>
