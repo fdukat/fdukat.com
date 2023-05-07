@@ -4,6 +4,6 @@
   width: 250px;
   position: relative;
   border-radius: 50%;
-  border: 3px solid var(--secondaryBrandColor);
+  border: 1px solid var(--secondaryBrandColor);
   margin: 35px auto;
 }

@@ -12,7 +12,7 @@ import styles from './Hero.module.css';
 export default function Hero() {
   return (
     <header className={styles.heroWrapper}>
-      <h1 className={styles.heroHeading}>Hello there!</h1>
+      <h1 className={styles.heroHeading}>Welcome!</h1>
       <p className={styles.heroParagraph}>
         My name is Filip and I am a 21-year-old software developer from Poland.
       </p>

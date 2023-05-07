@@ -8,44 +8,52 @@ export default function AboutContent() {
         <Link href="/">{'< Return'}</Link>
       </p>
       <p className={styles.aboutContentParagraph}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel
-        lobortis dui. Sed id egestas urna, ac venenatis felis. Suspendisse
-        mattis, nunc sit amet aliquet consequat, magna libero faucibus magna,
-        quis tempus dui ante eu sapien. Phasellus sollicitudin, ante sit amet
-        tincidunt bibendum, elit ipsum facilisis urna, ut facilisis nulla arcu
-        sit amet mi. Curabitur porta libero tortor, eget feugiat urna lacinia
-        vel. Nullam consequat metus leo, et pellentesque lectus bibendum et.
-        Suspendisse potenti. Donec tempus convallis diam, eu facilisis quam
-        commodo ac. Pellentesque in nisi ante. Fusce vestibulum quam ac finibus
-        lacinia. Maecenas porttitor lectus sem, at hendrerit magna suscipit non.
-        Aliquam congue dolor ligula, vel sagittis enim sagittis ut.
+        Greetings! As you can remember from the main page, my name is{' '}
+        <span className={styles.aboutSpan}>Filip</span> and I am 21 years old.
+        From a young age, I have always been drawn to exciting and engaging
+        activities, with a distaste for monotony and stagnation. This drive
+        eventually led me to the world of programming.
       </p>
       <p className={styles.aboutContentParagraph}>
-        Morbi sagittis enim vitae sollicitudin convallis. Suspendisse non orci
-        sit amet tellus convallis vestibulum. Vestibulum congue gravida orci, at
-        imperdiet erat. Sed ac ante mauris. Morbi massa sapien, consequat in
-        euismod vitae, vulputate a enim. Praesent ut ultrices sem. Curabitur
-        lorem quam, elementum vitae lorem sed, placerat faucibus libero. Ut in
-        mauris ex. Curabitur efficitur neque in fermentum lacinia. Ut ante
-        sapien, congue ut mauris vel, accumsan imperdiet turpis. Vivamus
-        vehicula est in mauris eleifend molestie id tincidunt quam. Lorem ipsum
-        dolor sit amet, consectetur adipiscing elit. Mauris mattis odio non
-        convallis volutpat. Phasellus nec nulla ac ex lobortis facilisis euismod
-        pretium ante.
+        It all started with an online C++ course, though I soon discovered that
+        this approach wasn&apos;t the best fit for me. I then dabbled in writing
+        small plugins for Minecraft in Java, but found it to be similarly
+        lacking in long-term appeal. I also experimented with Python, Ruby, and
+        C#, but failed to find anything that truly captivated me. The magic
+        happened when I discovered{' '}
+        <span className={styles.aboutSpan}>web development</span>.
       </p>
       <p className={styles.aboutContentParagraph}>
-        Cras metus augue, consectetur at ante ut, blandit bibendum ipsum. In nec
-        tortor iaculis, vehicula nisl a, venenatis ipsum. Morbi sodales mi ut
-        leo cursus blandit. Nulla facilisi. Duis ullamcorper ligula id efficitur
-        vehicula. Morbi congue, sem ac varius vehicula, nibh ligula faucibus
-        augue, et laoreet ipsum purus nec nunc. Morbi nec nulla suscipit nisl
-        commodo euismod vitae quis leo. Vestibulum ante magna, sagittis ultrices
-        augue sit amet, dictum lacinia metus. Nunc scelerisque est commodo elit
-        consectetur aliquam at id nulla. Vestibulum semper tincidunt nibh.
-        Curabitur sit amet congue massa, sed dignissim leo. Aenean ultricies,
-        augue et ornare imperdiet, quam purus volutpat leo, ut tempus lorem mi
-        eget quam. Vivamus lacinia tristique libero eu varius. Morbi ut
-        pellentesque est.
+        Currently, I devote most of my time to expanding my{' '}
+        <span className={styles.aboutSpan}>frontend development</span>{' '}
+        expertise, primarily through my work with{' '}
+        <span className={styles.aboutSpan}>React</span>. Recently, I&apos;ve
+        also begun integrating <span className={styles.aboutSpan}>Next.js</span>{' '}
+        into my new projects. In the future, I aspire to become a full-stack
+        developer.
+      </p>
+      <p className={styles.aboutContentParagraph}>
+        Beyond programming, I seek out a wide variety of interesting pursuits -
+        you might find me immersed in a good book, traveling, playing chess,
+        basketball, mixing up some delicious mojitos, or practicing martial
+        arts. On occasion, I even venture into the woods with friends to engage
+        in airsoft battles.
+      </p>
+      <p className={styles.aboutContentParagraph}>
+        I believe that my commitment to self-improvement, attention to detail,
+        and strong communication skills make me an excellent asset to any
+        programming team. If you&apos;re interested in discussing this topic, or
+        have any other questions, please don&apos;t hesitate to{' '}
+        <span className={styles.aboutSpan}>
+          <a
+            href="https://www.linkedin.com/in/fdukat/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            reach out
+          </a>
+        </span>
+        .
       </p>
     </div>
   );

@@ -11,3 +11,11 @@
   letter-spacing: 1px;
   width: fit-content;
 }
+
+.aboutSpan {
+  color: var(--primaryBrandColor);
+}
+
+.aboutSpan > a:hover {
+  color: var(--secondaryBrandColor);
+}

@@ -9,7 +9,7 @@ export default function AboutPage() {
   return (
     <>
       <Head>
-        <title>(WIP) About | Filip Dukat</title>
+        <title>About | Filip Dukat</title>
       </Head>
       <Container>
         <AboutPhoto />
