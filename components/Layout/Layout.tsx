@@ -13,14 +13,18 @@ const Heading = {
   H6: ({ children }) => <h6 className={styles.heading6}>{children}</h6>,
 };
 
-function Paragraph({ children }) {
-  <p className={styles.paragraph}>{children}</p>;
-}
+const Paragraph = {
+  P: ({ children }) => <p className={styles.paragraph}>{children}</p>,
+};
 
 const components = {
   h1: Heading.H1,
   h2: Heading.H2,
-  p: Paragraph,
+  h3: Heading.H3,
+  h4: Heading.H4,
+  h5: Heading.H5,
+  h6: Heading.H6,
+  p: Paragraph.P,
 };
 
 export default function Layout({ children, meta }: any) {
