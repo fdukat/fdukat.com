@@ -1,3 +1,14 @@
+.aboutContentWrapper {
+  width: 70%;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .aboutContentWrapper {
+    width: 90%;
+  }
+}
+
 .aboutContentParagraph {
   font-size: 1.25rem;
   padding: 20px 0;

@@ -1,0 +1,29 @@
+import Head from 'next/head';
+
+import Footer from '@/components/Footer';
+import Layout from '@/components/Layout';
+
+export default function BlogLayout({ children }) {
+  return <Layout meta={meta}>{children}</Layout>;
+}
+
+export const meta = {
+  title: 'Hello World!',
+  date: '8 May 2023',
+};
+
+<Head>
+  <title>{meta.title}</title>
+</Head>
+
+Starting something new can be daunting. Whether it's creating your first application, launching a podcast, or losing weight, it's natural to encounter setbacks and failures along the way. However, it's important to embrace new experiences, broaden your horizons, and adapt to the ever-changing world. This introductory post aims to do just that.
+
+By now, you may have learned a bit about me and my journey into programming (if not, you can catch up here). But you may be wondering, why start a blog? Why not simply create a portfolio and showcase my projects there? While that may have been my previous approach, I recently challenged myself to do more.
+
+As someone who has never been interested in blogging or sharing my life on social media, I realized that I had been limiting myself. My mindset shifted after reading articles and taking courses from the wonderful [Josh W. Comeau](https://www.joshwcomeau.com/). His insights on [learning quickly](https://www.joshwcomeau.com/blog/how-to-learn-stuff-quickly/), cultivating a Carol Dweck's [growth mindset](https://www.youtube.com/watch?v=-71zdXCMU6A), and adopting a learn-in-public mentality inspired me to share my own journey with the world. This blog will allow me to overcome my fears of sharing my work online, be more outgoing, and showcase my thought process behind the software I develop.
+
+In this space, you'll find my personal thoughts on learning new things, stories about my recent projects, and how I overcome obstacles to achieve my goals. If you're interested in web development, React, or learning new things in general, stick around. Perhaps we'll find some common ground. I'm also open to connecting with anyone who shares this approach. Please feel free to reach out to me via [LinkedIn](https://www.linkedin.com/in/fdukat/) or [email](mailto:contact@fdukat.com) to chat.
+
+Thank you for taking the time to read this very first, imperfect post. I hope you have a wonderful day and I look forward to seeing you around!
+
+<Footer />

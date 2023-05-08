@@ -3,7 +3,7 @@ import styles from './AboutContent.module.css';
 
 export default function AboutContent() {
   return (
-    <div>
+    <div className={styles.aboutContentWrapper}>
       <p className={styles.aboutContentReturn}>
         <Link href="/">{'< Return'}</Link>
       </p>

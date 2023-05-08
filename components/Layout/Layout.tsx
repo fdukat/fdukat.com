@@ -17,6 +17,14 @@ const Paragraph = {
   P: ({ children }) => <p className={styles.paragraph}>{children}</p>,
 };
 
+const ArticleLink = {
+  Anchor: ({ children, ...rest }) => (
+    <a className={styles.link} {...rest}>
+      {children}
+    </a>
+  ),
+};
+
 const components = {
   h1: Heading.H1,
   h2: Heading.H2,
@@ -25,6 +33,7 @@ const components = {
   h5: Heading.H5,
   h6: Heading.H6,
   p: Paragraph.P,
+  a: ArticleLink.Anchor,
 };
 
 export default function Layout({ children, meta }: any) {

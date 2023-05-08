@@ -11,39 +11,15 @@ export default function postList() {
         Blog posts <Rss size={16} />
       </h2>
       <article className={styles.postListElement}>
-        <p className={styles.postListElementDate}>27th April 2023</p>
+        <p className={styles.postListElementDate}>8 May 2023</p>
         <h3 className={styles.postListElementHeading}>
-          <Link href="/blog/example" className={styles.postListElementLink}>
-            Example blog post title
+          <Link href="/blog/hello_world" className={styles.postListElementLink}>
+            Hello World!
           </Link>
         </h3>
         <p className={styles.postListElementDescription}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-          viverra quis nibh gravida mattis.
-        </p>
-      </article>
-      <article className={styles.postListElement}>
-        <p className={styles.postListElementDate}>26th April 2023</p>
-        <h3 className={styles.postListElementHeading}>
-          <Link href="/blog/example" className={styles.postListElementLink}>
-            Second example blog post title
-          </Link>
-        </h3>
-        <p className={styles.postListElementDescription}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-          viverra quis nibh gravida mattis.
-        </p>
-      </article>
-      <article className={styles.postListElement}>
-        <p className={styles.postListElementDate}>25th April 2023</p>
-        <h3 className={styles.postListElementHeading}>
-          <Link href="/blog/example" className={styles.postListElementLink}>
-            Third example blog post title
-          </Link>
-        </h3>
-        <p className={styles.postListElementDescription}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-          viverra quis nibh gravida mattis.
+          In this intro post, I share reasons behind starting and blog and
+          adopting learn-in-public mindset.
         </p>
       </article>
     </section>
