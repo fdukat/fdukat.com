@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
         <meta
           name="description"
-          content="Hey, my name is Filip, I am a software developer and this is a place for my thoughts and opinions about programming. Welcome!"
+          content="A software developer from Poland with a focus on React. Passionate about building elegant and functional web applications. From design to deployment, tries to implement top-quality solutions tailored to project needs."
         />
         <meta
           name="keywords"
