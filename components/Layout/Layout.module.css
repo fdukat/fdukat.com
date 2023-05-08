@@ -75,6 +75,7 @@
 .paragraph {
   font-size: 1.2rem;
   padding: 15px 0 15px 0;
+  text-align: justify;
 }
 
 .link {
