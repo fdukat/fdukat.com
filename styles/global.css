@@ -1,0 +1,20 @@
+:root {
+  --primaryBackgroundColor: rgb(11, 11, 18);
+
+  --primaryTextColor: rgb(255, 255, 255);
+  --secondaryTextColor: rgb(180, 180, 180);
+  --tertiaryTextColor: rgb(115, 115, 115);
+}
+
+body {
+  width: 70%;
+  margin: auto;
+  background-color: var(--primaryBackgroundColor);
+  color: var(--primaryTextColor);
+}
+
+@media only screen and (max-width: 700px) {
+  body {
+    width: 90%;
+  }
+}
