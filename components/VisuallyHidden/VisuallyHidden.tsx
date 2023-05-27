@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 
 import styles from './VissuallyHidden.module.css';
 
-const VisuallyHidden = ({ children, ...delegated }: React.PropsWithChildren) => {
+const VisuallyHidden = ({ children, ...delegated }: any) => {
   const [forceShow, setForceShow] = useState(false);
   useEffect(() => {
     if (process.env.NODE_ENV !== 'production') {
