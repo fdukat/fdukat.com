@@ -20,6 +20,10 @@
   color: var(--primaryBrandColor);
 }
 
+.heroSubheadingSpan:hover {
+  color: var(--secondaryBrandColor);
+}
+
 @media only screen and (max-width: 650px) {
   .heroHeading {
     font-size: 3rem;
