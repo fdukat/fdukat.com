@@ -4,6 +4,8 @@
   --primaryTextColor: rgb(255, 255, 255);
   --secondaryTextColor: rgb(180, 180, 180);
   --tertiaryTextColor: rgb(115, 115, 115);
+
+  --primaryBrandColor: rgb(107, 0, 230);
 }
 
 body {

@@ -16,6 +16,10 @@
   color: var(--secondaryTextColor);
 }
 
+.heroSubheadingSpan {
+  color: var(--primaryBrandColor);
+}
+
 @media only screen and (max-width: 650px) {
   .heroHeading {
     font-size: 3rem;
