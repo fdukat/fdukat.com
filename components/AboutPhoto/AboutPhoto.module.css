@@ -1,9 +1,0 @@
-.aboutPhotoWrapper {
-  overflow: hidden;
-  height: 250px;
-  width: 250px;
-  position: relative;
-  border-radius: 50%;
-  border: 1px solid var(--secondaryBrandColor);
-  margin: 35px auto;
-}

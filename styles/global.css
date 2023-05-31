@@ -1,48 +1,37 @@
-body {
-  background-color: var(--backgroundColor);
-  color: var(--primaryColor);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: var(--secondaryColor);
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 :root {
-  --backgroundColor: rgb(11, 11, 18);
-  --primaryColor: rgb(195, 201, 208);
-  --secondaryColor: rgb(255, 255, 255);
-  --tertiaryColor: rgb(135, 139, 144);
-  --primaryBrandColor: rgb(133, 103, 224);
-  --secondaryBrandColor: rgb(104, 79, 179);
-  --tertiaryBrandColor: rgb(135, 139, 144);
+  --primaryBackgroundColor: rgb(11, 11, 18);
+
+  --primaryTextColor: rgb(255, 255, 255);
+  --secondaryTextColor: rgb(180, 180, 180);
+  --tertiaryTextColor: rgb(115, 115, 115);
+
+  --primaryBrandColor: rgb(116, 14, 226);
+  --secondaryBrandColor: rgb(76, 25, 136);
 }
 
-/* width */
-::-webkit-scrollbar {
-  width: 4px;
+body {
+  width: 70%;
+  margin: auto;
+  background-color: var(--primaryBackgroundColor);
+  color: var(--primaryTextColor);
+
+  animation: fadeIn 1s ease-out 0s 1 normal forwards;
 }
 
-/* Track */
-::-webkit-scrollbar-track {
-  background: none;
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: var(--primaryBrandColor);
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: var(--secondaryBrandColor);
+@media only screen and (max-width: 650px) {
+  body {
+    width: 90%;
+  }
 }

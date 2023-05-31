@@ -1,0 +1,43 @@
+.postsSinglePost {
+  padding: 25px 0;
+  width: 60%;
+}
+
+.postsSinglePostDate {
+  color: var(--tertiaryTextColor);
+  font-size: 0.95rem;
+}
+
+.postsSinglePostTitle {
+  width: fit-content;
+  font-size: 1.75rem;
+  padding: 10px 0;
+  -webkit-transition: color 0.5s ease-out;
+  -moz-transition: color 0.5s ease-out;
+  -o-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+.postsSinglePostDescription {
+  color: var(--secondaryTextColor);
+  font-size: 1.2rem;
+  -webkit-transition: color 0.5s ease-out;
+  -moz-transition: color 0.5s ease-out;
+  -o-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+.postsSinglePostLink:hover .postsSinglePostTitle {
+  color: var(--primaryBrandColor);
+}
+
+.postsSinglePostLink:hover .postsSinglePostDescription {
+  color: var(--tertiaryTextColor);
+}
+
+@media only screen and (max-width: 650px) {
+  .postsSinglePost {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
