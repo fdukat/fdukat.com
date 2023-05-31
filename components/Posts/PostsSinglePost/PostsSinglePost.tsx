@@ -7,8 +7,8 @@ export default function PostsSinglePost({ children, title, date, href }: Props) 
       <p className={styles.postsSinglePostDate}>{date}</p>
       <Link className={styles.postsSinglePostLink} href={href}>
         <h3 className={styles.postsSinglePostTitle}>{title}</h3>
+        <p className={styles.postsSinglePostDescription}>{children}</p>
       </Link>
-      <p className={styles.postsSinglePostDescription}>{children}</p>
     </article>
   );
 }

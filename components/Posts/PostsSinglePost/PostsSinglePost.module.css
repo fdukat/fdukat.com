@@ -12,19 +12,27 @@
   width: fit-content;
   font-size: 1.75rem;
   padding: 10px 0;
-  -webkit-transition: color 1s ease-out;
-  -moz-transition: color 1s ease-out;
-  -o-transition: color 1s ease-out;
-  transition: color 1s ease-out;
-}
-
-.postsSinglePostTitle:hover {
-  color: var(--primaryBrandColor);
+  -webkit-transition: color 0.5s ease-out;
+  -moz-transition: color 0.5s ease-out;
+  -o-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
 }
 
 .postsSinglePostDescription {
   color: var(--secondaryTextColor);
   font-size: 1.2rem;
+  -webkit-transition: color 0.5s ease-out;
+  -moz-transition: color 0.5s ease-out;
+  -o-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+.postsSinglePostLink:hover .postsSinglePostTitle {
+  color: var(--primaryBrandColor);
+}
+
+.postsSinglePostLink:hover .postsSinglePostDescription {
+  color: var(--tertiaryTextColor);
 }
 
 @media only screen and (max-width: 650px) {
