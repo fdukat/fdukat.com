@@ -1,0 +1,26 @@
+.paragraph {
+  color: var(--secondaryTextColor);
+  font-size: 1.3rem;
+  padding: 30px 0;
+  width: 85%;
+  text-align: justify;
+  margin: auto;
+}
+
+.paragraph > span {
+  color: var(--primaryBrandColor);
+}
+
+.paragraph > span > a:hover {
+  color: var(--secondaryBrandColor);
+  -webkit-transition: color 0.5s ease-out;
+  -moz-transition: color 0.5s ease-out;
+  -o-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+@media only screen and (max-width: 650px) {
+  .paragraph {
+    width: 90%;
+  }
+}
