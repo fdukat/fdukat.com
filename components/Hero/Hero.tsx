@@ -8,24 +8,21 @@ export default function Hero() {
     <header className={styles.heroWrapper}>
       <h1 className={styles.heroHeading}>Welcome!</h1>
       <p className={styles.heroSubheading}>
-        My name is <strong>Filip</strong> and I am <strong>21-year-old software developer</strong>{' '}
-        from <strong>Poland</strong>.
+        My name is Filip and I am a software developer from Poland.
       </p>
       <p className={styles.heroSubheading}>
-        As a programmer, I feel <strong>passionate</strong> about{' '}
-        <strong>creating beautiful user-friendly applications</strong> and{' '}
-        <strong>constantly expand my knowledge</strong>.
+        I feel passionate about creating applications that are user-friendly and constantly expand
+        my knowledge.
       </p>
       <p className={styles.heroSubheading}>
-        If you would like to know more about me,{' '}
+        Check out{' '}
         <span className={styles.heroSubheadingSpan}>
-          <Link href="/about">check out this page</Link>
-        </span>
-        .
+          <Link href="/about">about page</Link>
+        </span>{' '}
+        if you would like to know more about my journey.
       </p>
       <p className={styles.heroSubheading}>
-        Below, you can find links to my <strong>resume</strong> and{' '}
-        <strong>social media profiles</strong>:
+        Below, you can find links to my resume and social media profiles:
       </p>
       <HeroIconsList />
     </header>

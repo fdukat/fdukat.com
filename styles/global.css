@@ -1,12 +1,12 @@
 :root {
-  --primaryBackgroundColor: rgb(11, 11, 18);
+  --primaryBackgroundColor: rgb(15, 17, 23);
 
   --primaryTextColor: rgb(255, 255, 255);
   --secondaryTextColor: rgb(180, 180, 180);
-  --tertiaryTextColor: rgb(115, 115, 115);
+  --tertiaryTextColor: rgb(105, 105, 105);
 
-  --primaryBrandColor: rgb(116, 14, 226);
-  --secondaryBrandColor: rgb(76, 25, 136);
+  --primaryBrandColor: rgb(190, 136, 255);
+  --secondaryBrandColor: rgb(136, 97, 184);
 }
 
 body {
