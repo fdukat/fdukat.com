@@ -28,7 +28,7 @@
 }
 
 .postsSinglePostLink:hover .postsSinglePostTitle {
-  color: var(--primaryBrandColor);
+  color: var(--secondaryBrandColor);
 }
 
 .postsSinglePostLink:hover .postsSinglePostDescription {
