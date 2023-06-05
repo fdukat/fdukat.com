@@ -1,4 +1,23 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {}
+const theme = require('shiki/themes/nord.json');
+const { remarkCodeHike } = require('@code-hike/mdx');
 
-module.exports = nextConfig
+const withMDX = require('@next/mdx')({
+  extension: /\.mdx?$/,
+  options: {
+    remarkPlugins: [
+      [
+        remarkCodeHike,
+        {
+          theme,
+          lineNumbers: true,
+          showCopyButton: true,
+          staticMediaQuery: 'only screen, (max-width: 650px)',
+        },
+      ],
+    ],
+  },
+});
+
+module.exports = withMDX({
+  pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
+});
