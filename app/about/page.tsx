@@ -2,6 +2,10 @@ import Paragraph from '@/components/Paragraph';
 import Photo from '@/components/Photo';
 import ReturnButton from '@/components/ReturnButton';
 
+export const metadata = {
+  title: 'About | Filip Dukat',
+};
+
 export default function About() {
   return (
     <main>
