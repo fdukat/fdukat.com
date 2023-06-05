@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import { BookOpen, FileText, GitHub, Linkedin } from 'react-feather';
 
 import VisuallyHidden from '@/components/VisuallyHidden';
@@ -9,7 +11,9 @@ export default function HeroIconsList() {
   return (
     <ul className={styles.heroIconsList}>
       <HeroIconsListElement>
-        <FileText className={styles.heroIconsListElementIcon} size={30} />
+        <Link href="/resume.pdf">
+          <FileText className={styles.heroIconsListElementIcon} size={30} />
+        </Link>
         <VisuallyHidden>Resume</VisuallyHidden>
       </HeroIconsListElement>
       <HeroIconsListElement>
