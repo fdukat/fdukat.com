@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={notoSans.className}>{children}</body>
+      <body className={`${notoSans.className} bg-background`}>{children}</body>
     </html>
   );
 }
