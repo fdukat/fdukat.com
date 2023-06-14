@@ -9,6 +9,16 @@ module.exports = {
     extend: {
       colors: {
         background: '#0f1117',
+        primary: '#ffffff',
+        secondary: '#b0b9c2',
+        brand: '#be88ff',
+      },
+      backgroundPosition: {
+        beforeHoverPosition: '0 100%',
+      },
+      backgroundSize: {
+        beforeHoverSize: '100% 1px',
+        afterHoverSize: '100% 100%',
       },
     },
   },
