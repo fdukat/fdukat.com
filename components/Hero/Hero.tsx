@@ -13,14 +13,14 @@ export default function Hero() {
           <p className="p-3">
             I&apos;m all about turning ideas into stunning, user-friendly applications through the
             power of code. Working with web technologies, both on the{' '}
-            <span className="text-primary font-semibold">frontend</span> and{' '}
-            <span className="text-primary font-semibold">backend</span>, is where I find my true
+            <strong className="text-primary font-semibold">frontend</strong> and{' '}
+            <strong className="text-primary font-semibold">backend</strong>, is where I find my true
             passion.
           </p>
           <p className="p-3">
             Currently, my focus is on expanding{' '}
-            <span className="text-primary font-semibold">Next.js</span> knowledge and broadening my
-            overall web development skill set. I believe that continuously expanding one&apos;s
+            <strong className="text-primary font-semibold">Next.js</strong> knowledge and broadening
+            my overall web development skill set. I believe that continuously expanding one&apos;s
             techical foundation is one of key factors to succeed.
           </p>
           <p className="p-3">
