@@ -1,17 +1,17 @@
+import BlogPosts from '@/components/BlogPosts';
+import FeaturedProjects from '@/components/FeaturedProjects';
 import Hero from '@/components/Hero';
-import Posts from '@/components/Posts';
 
 export const metadata = {
-  title: 'Home | Filip Dukat',
+  title: 'Home | fdukat.com',
 };
 
 export default function Home() {
   return (
-    <>
+    <main>
       <Hero />
-      <main>
-        <Posts />
-      </main>
-    </>
+      <FeaturedProjects />
+      <BlogPosts />
+    </main>
   );
 }
