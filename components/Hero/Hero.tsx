@@ -25,7 +25,7 @@ export default function Hero() {
             techical foundation is one of key factors to succeed.
           </p>
           <p className="p-3">
-            If you&apos;re curious to know more about my journey and what drives me, hop over to the{' '}
+            If you&apos;re curious to know more about my journey, hop over to the{' '}
             <InternalLink href="/about">About Me</InternalLink> page.
           </p>
         </div>
