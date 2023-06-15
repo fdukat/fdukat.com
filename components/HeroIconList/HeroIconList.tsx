@@ -6,7 +6,7 @@ export default function HeroIconList() {
   return (
     <ul className="flex justify-center gap-6 w-[90%] mx-auto m-12">
       <li>
-        <InternalLink href="/resume">
+        <InternalLink href="/resume.pdf">
           <FileText size={32} className="hover:text-brand" />
         </InternalLink>
       </li>
