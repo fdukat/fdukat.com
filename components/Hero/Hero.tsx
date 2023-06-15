@@ -6,6 +6,8 @@ export default function Hero() {
     <header className="text-white text-center">
       <div className="container mx-auto">
         <h1 className="text-5xl  md:text-7xl font-black text-primary mt-10 md:mt-36 mb-12">
+          🚀
+          <br />
           Welcome, my name is Filip.
         </h1>
         <div className="text-lg text-secondary w-[90%] mx-auto">
