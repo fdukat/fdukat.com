@@ -3,8 +3,8 @@ import Image from 'next/image';
 
 export default function NotFound() {
   return (
-    <div className="container mx-auto mt-12 md:mt-24 lg:mt-48 flex justify-center items-center flex-col">
-      <h1 className="text-7xl text-primary font-bold mb-24 text-center">Error 404</h1>
+    <div className="container mx-auto pb-24 flex justify-center items-center flex-col">
+      <h1 className="text-7xl text-primary pt-36 font-bold mb-12 text-center">Error 404</h1>
       <Image
         src="/periculum.gif"
         width={500}

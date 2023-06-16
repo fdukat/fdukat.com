@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function About() {
   return (
-    <main className="container flex flex-wrap mx-auto gap-5 pt-16 justify-center">
+    <main className="container flex flex-wrap mx-auto gap-5 pt-16 pb-24 justify-center">
       <div className="text-secondary text-lg text-justify lg:w-[55%] mx-auto">
         <InternalLink
           href="/"

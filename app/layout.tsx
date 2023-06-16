@@ -16,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={`${notoSans.className} bg-background`}>
+      <body className={`${notoSans.className} bg-background min-h-screen relative`}>
         {children}
         <Footer />
       </body>
