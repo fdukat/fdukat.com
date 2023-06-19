@@ -2,6 +2,7 @@ import { Noto_Sans } from 'next/font/google';
 import Footer from '@/components/Footer';
 import '@/styles/loadAnimation.css';
 import '@/styles/tailwind.css';
+import '@code-hike/mdx/dist/index.css';
 import Script from 'next/script';
 
 const notoSans = Noto_Sans({

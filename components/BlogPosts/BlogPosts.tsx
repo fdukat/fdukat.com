@@ -22,7 +22,7 @@ export default function BlogPosts() {
           <h3 className="text-xl">
             <InternalLink href="">Another example article title</InternalLink>
           </h3>
-          <p className="text-secondary text-base font-extralight my-1">14th June 2023</p>
+          <p className="text-secondary textss-base font-extralight my-1">14th June 2023</p>
           <p className="text-justify font-light text-lg my-3">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non ipsam culpa sed at iure
             vero ex dolorum. Sint repudiandae error, dignissimos, harum aliquam, numquam quam ipsa
