@@ -7,14 +7,6 @@ export default function FeaturedProjects() {
       <ul className="flex flex-wrap justify-center gap-16 mx-auto m-12 text-primary">
         <li>
           <h3 className="text-center text-xl">
-            <ExternalLink href="https://github.com/fdukat/fdukat.com">fdukat.com</ExternalLink>
-          </h3>
-          <p className="text-center italic font-light my-2">
-            Next.js, Typescript, TailwindCSS, MDX
-          </p>
-        </li>
-        <li>
-          <h3 className="text-center text-xl">
             <ExternalLink href="https://github.com/fdukat/patrykdukat.com">
               patrykdukat.com
             </ExternalLink>
