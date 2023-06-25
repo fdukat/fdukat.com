@@ -11,7 +11,6 @@ export default function Home() {
     <main className="pb-24">
       <Hero />
       <FeaturedProjects />
-      <BlogPosts />
     </main>
   );
 }
